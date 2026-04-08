@@ -77,7 +77,7 @@ def save_data(data_list, filename_base, format_choice):
         print(f"[!] Файл {filename} сохранен.")
 
 async def run(p: Playwright) -> None:
-    browser = await p.chromium.launch(headless=False)
+    browser = await p.chromium.launch(headless=True)
     page = await browser.new_page()
 
     print("Ожидайте пожалуйста, загрузка сайта...")
