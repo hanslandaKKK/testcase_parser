@@ -1,0 +1,6 @@
+playwright
+httpx
+beautifulsoup4
+fake-useragent
+pandas
+openpyxl
